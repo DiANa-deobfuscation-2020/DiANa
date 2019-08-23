@@ -1,0 +1,30 @@
+strict digraph "" {
+	"0x6b8"	 [opcode="[u'sub', u'cmp', u'b']"];
+	"0x6c4"	 [opcode="[u'add', u'b']"];
+	"0x6b8" -> "0x6c4";
+	"0x6dc"	 [opcode="[u'mov', u'add', u'pop']"];
+	"0x6b8" -> "0x6dc";
+	"0x668"	 [opcode="[u'add', u'add', u'asr', u'lsl', u'add', u'mov', u'bl', u'cmp', u'b']"];
+	"0x68c"	 [opcode="[u'str', u'add', u'add', u'bl', u'ldr', u'cmp', u'b']"];
+	"0x668" -> "0x68c";
+	"0x6d4"	 [opcode="[u'cmp', u'b']"];
+	"0x668" -> "0x6d4";
+	"0x6c4" -> "0x668";
+	"0x6b0"	 [opcode="[u'sub', u'b']"];
+	"0x6b0" -> "0x668";
+	"0x68c" -> "0x6b8";
+	"0x6a8"	 [opcode="[u'cmp', u'b']"];
+	"0x68c" -> "0x6a8";
+	"0x654"	 [opcode="[u'sub', u'mov', u'mov', u'mov', u'mov']"];
+	"0x654" -> "0x668";
+	"0x6d4" -> "0x6dc";
+	"0x6d4" -> "0x6a8";
+	"0x6a8" -> "0x6b0";
+	"0x6cc"	 [opcode="[u'mov', u'b']"];
+	"0x6a8" -> "0x6cc";
+	"0x6cc" -> "0x6dc";
+	"0x5f8"	 [opcode="[u'mov', u'mov', u'cmp', u'bx', u'push', u'mov', u'ldr', u'add', u'bl', u'mov', u'pop', u'bx', u'and', u'ldr', u'tst', u'orr', u'\
+bic', u'add', u'bx', u'push', u'cmp', u'mov', u'b']"];
+	"0x5f8" -> "0x6dc";
+	"0x5f8" -> "0x654";
+}

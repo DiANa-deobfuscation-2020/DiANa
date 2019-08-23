@@ -1,0 +1,24 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/comparestrings/1528_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/comparestrings/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x688"	 [opcode="[u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'mvn', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', u'cmp', u'mov', \
+u'mov', u'cmp', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x7f8"	 [opcode="[u'mov', u'sub', u'pop']"];
+	"0x688" -> "0x7f8";
+	"0x7cc"	 [opcode="[u'ldr']"];
+	"0x7b8"	 [opcode="[u'mov', u'mov', u'b']"];
+	"0x7cc" -> "0x7b8";
+	"0x7b8" -> "0x7f8";
+	"0x7c4"	 [opcode="[u'ldr', u'b']"];
+	"0x7c4" -> "0x7b8";
+	"0x7dc"	 [opcode="[u'ldm', u'bl', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x7dc" -> "0x7cc";
+	"0x7dc" -> "0x7c4";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'mov', u'ldr', u'cmp', u'ldr', u'ldr', u'mov', u'add', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', \
+u'str', u'ldr', u'add', u'str', u'b']"];
+	"0x5f8" -> "0x688";
+	"0x5f8" -> "0x7dc";
+}

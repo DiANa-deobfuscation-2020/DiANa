@@ -1,0 +1,29 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents//论文//第二篇论文//2018-08-24交论文后的备份/2019/CFG/basic-algorithms/frequency/1816_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents//\u8bba\u6587//\u7b2c\u4e8c\u7bc7\u8bba\u6587//2018-08-24\u4ea4\u8bba\u6587\u540e\u7684\u5907\u4efd/\
+2019/CFG/basic-algorithms/frequency/1816_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x9d4"	 [opcode="[u'ldr', u'ldr', u'cmp', u'mov', u'mov', u'strb', u'ldr', u'b']"];
+	"0x8d4"	 [opcode="[u'ldr', u'str', u'add', u'str', u'mov', u'b']"];
+	"0x9d4" -> "0x8d4";
+	"0x8a8"	 [opcode="[u'ldr', u'add', u'str', u'ldr', u'b']"];
+	"0x9d4" -> "0x8a8";
+	"0x9bc"	 [opcode="[u'mov', u'mov', u'b']"];
+	"0xa4c"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'sub', u'mov', u'sub', u'pop']"];
+	"0x9bc" -> "0xa4c";
+	"0x904"	 [opcode="[u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldrb', u'str', u'ldr', u'ldrb', u'str', u'ldr', u'ldr']"];
+	"0x904" -> "0x9d4";
+	"0x9f4"	 [opcode="[u'ldr', u'ldr', u'mov', u'str', u'bl', u'ldr', u'ldr', u'ldr', u'b']"];
+	"0x904" -> "0x9f4";
+	"0x718"	 [opcode="[u'push', u'add', u'sub', u'mov', u'ldr', u'mov', u'ldr', u'ldr', u'add', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'str', \
+u'str', u'b']"];
+	"0x718" -> "0x9bc";
+	"0x81c"	 [opcode="[u'sub', u'str', u'str', u'mov', u'mov', u'str', u'ldr', u'bl', u'mov', u'ldr', u'b']"];
+	"0x718" -> "0x81c";
+	"0x81c" -> "0x904";
+	"0x8d4" -> "0x904";
+	"0x9f4" -> "0xa4c";
+	"0x8a8" -> "0x8d4";
+}

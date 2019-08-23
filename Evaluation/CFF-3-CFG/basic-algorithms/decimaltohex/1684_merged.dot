@@ -1,0 +1,38 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents//论文//第二篇论文//2018-08-24交论文后的备份/2019/CFG/basic-algorithms/decimaltohex/1684_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents//\u8bba\u6587//\u7b2c\u4e8c\u7bc7\u8bba\u6587//2018-08-24\u4ea4\u8bba\u6587\u540e\u7684\u5907\u4efd/\
+2019/CFG/basic-algorithms/decimaltohex/1684_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0xa00"	 [opcode="[u'ldr', u'mov', u'b']"];
+	"0xb58"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'sub', u'mov', u'sub', u'pop']"];
+	"0xa00" -> "0xb58";
+	"0x9d8"	 [opcode="[u'str', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0xa7c"	 [opcode="[u'ldr', u'ldr', u'b']"];
+	"0x9d8" -> "0xa7c";
+	"0x95c"	 [opcode="[u'ldr', u'add', u'str', u'ldr', u'b']"];
+	"0x9d8" -> "0x95c";
+	"0xa7c" -> "0xb58";
+	"0x9b0"	 [opcode="[u'str', u'ldr', u'ldr', u'b']"];
+	"0xa9c"	 [opcode="[u'str', u'str', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x9b0" -> "0xa9c";
+	"0x95c" -> "0x9d8";
+	"0xa24"	 [opcode="[u'ldr', u'ldr', u'strb', u'add', u'mov', u'ldr', u'asr', u'add', u'asr', u'b']"];
+	"0xa24" -> "0xa9c";
+	"0xa88"	 [opcode="[u'ldr', u'add', u'str', u'ldr', u'b']"];
+	"0xa88" -> "0xa24";
+	"0xb38"	 [opcode="[u'ldr', u'asr', u'add', u'bic', u'sub', u'str', u'ldr', u'b']"];
+	"0xa9c" -> "0xb38";
+	"0x930"	 [opcode="[u'ldr', u'ldr', u'bl', u'ldr', u'b']"];
+	"0xa9c" -> "0x930";
+	"0x694"	 [opcode="[u'push', u'add', u'sub', u'str', u'ldr', u'str', u'add', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', \
+u'str', u'ldr', u'ldr', u'add', u'str', u'b']"];
+	"0x694" -> "0xa00";
+	"0x694" -> "0x9b0";
+	"0xb38" -> "0xa88";
+	"0xad0"	 [opcode="[u'ldr', u'add', u'str', u'ldr', u'b']"];
+	"0xb38" -> "0xad0";
+	"0x930" -> "0x9d8";
+	"0xad0" -> "0xa24";
+}

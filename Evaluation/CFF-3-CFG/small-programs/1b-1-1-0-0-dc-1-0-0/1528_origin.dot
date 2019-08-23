@@ -1,0 +1,3 @@
+strict digraph "" {
+	"0x5f8"	 [opcode="[u'push', u'mov', u'ldr', u'mov', u'orr', u'add', u'bl', u'mov', u'pop']"];
+}

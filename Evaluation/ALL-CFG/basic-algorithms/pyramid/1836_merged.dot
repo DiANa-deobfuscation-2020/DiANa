@@ -1,0 +1,37 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/pyramid/1836_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/pyramid/1836_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x9d0"	 [opcode="[u'ldr', u'ldr', u'ldr', u'sub', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', u'mov', u'ldr', u'cmp', u'mov', u'mov', u'mov', \
+u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0xfdc"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'sub', u'ldr', u'sub', u'pop']"];
+	"0x9d0" -> "0xfdc";
+	"0xcc0"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'mov', u'sub', u'mul', u'cmp', u'mov', u'mvn', u'mov', u'ldr', u'orr', u'cmn', u'mov', \
+u'teq', u'ldr']"];
+	"0xcc0" -> "0xfdc";
+	"0xadc"	 [opcode="[u'str', u'str', u'ldr', u'str', u'ldr', u'ldr', u'bl', u'mov', u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'ldr', \
+u'mvn', u'orr', u'cmn', u'mov', u'ldr', u'mov', u'strb', u'mov', u'cmp', u'mov', u'strb', u'ldr', u'ldr', u'ldr', u'b']"];
+	"0xd88"	 [opcode="[u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0xadc" -> "0xd88";
+	"0xd88" -> "0xcc0";
+	"0xd78"	 [opcode="[u'mov']"];
+	"0xd88" -> "0xd78";
+	"0xa50"	 [opcode="[u'ldr', u'mov', u'str', u'ldr', u'ldr', u'sub', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', u'teq', \
+u'ldr', u'mov', u'mov', u'cmp', u'mov', u'mov', u'cmp', u'mov', u'b']"];
+	"0xd78" -> "0xa50";
+	"0x72c"	 [opcode="[u'push', u'add', u'sub', u'mov', u'ldr', u'mov', u'mvn', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'mov', \
+u'eor', u'tst', u'ldr', u'mov', u'mov', u'strb', u'ldr', u'cmp', u'mov', u'strb', u'ldr', u'ldr', u'ldr', u'ldr', u'str', u'ldr', \
+u'str', u'ldr', u'str', u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', \
+u'ldr', u'str', u'ldr', u'add', u'str', u'str', u'str', u'str', u'b']"];
+	"0x72c" -> "0x9d0";
+	"0x72c" -> "0xadc";
+	"0xc40"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'mov', u'add', u'cmp', u'sub', u'mov', u'sub', u'mul', u'mov', u'mvn', u'ldr', u'orr', \
+u'cmn', u'mov', u'teq', u'ldr', u'b']"];
+	"0xa50" -> "0xc40";
+	"0xd48"	 [opcode="[u'ldr', u'bl', u'ldr', u'ldr', u'sub', u'add', u'add', u'b']"];
+	"0xa50" -> "0xd48";
+	"0xc40" -> "0xd88";
+	"0xd48" -> "0xa50";
+}

@@ -1,0 +1,17 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents//论文//第二篇论文//2018-08-24交论文后的备份/2019/CFG/small-programs/1b-4-1-0-0-dc-1-1-0/1528_\
+recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents//\u8bba\u6587//\u7b2c\u4e8c\u7bc7\u8bba\u6587//2018-08-24\u4ea4\u8bba\u6587\u540e\u7684\u5907\u4efd/\
+2019/CFG/small-programs/1b-4-1-0-0-dc-1-1-0/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x6d8"	 [opcode="[u'str', u'str', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x6f8"	 [opcode="[u'ldr', u'ldr', u'add', u'str', u'ldr', u'b']"];
+	"0x6d8" -> "0x6f8";
+	"0x664"	 [opcode="[u'ldr', u'mov', u'bl', u'ldr', u'b']"];
+	"0x6d8" -> "0x664";
+	"0x6f8" -> "0x6d8";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'ldr', u'mov', u'ldr', u'ldr', u'add', u'b']"];
+	"0x5f8" -> "0x6d8";
+}

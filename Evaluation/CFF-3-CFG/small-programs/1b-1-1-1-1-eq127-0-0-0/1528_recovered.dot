@@ -1,0 +1,20 @@
+digraph "" {
+	"0x704"	 [opcode="[u'ldrb', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x6ac"	 [opcode="[u'mov', u'bl', u'ldr', u'b']"];
+	"0x704" -> "0x6ac";
+	"0x690"	 [opcode="[u'mov', u'bl', u'ldr', u'b']"];
+	"0x704" -> "0x690";
+	"0x65c"	 [opcode="[u'ldr', u'cmp', u'mov', u'b']"];
+	"0x6ac" -> "0x65c";
+	"0x62c"	 [opcode="[u'ldr', u'cmp', u'mov']"];
+	"0x690" -> "0x62c";
+	"0x6d8"	 [opcode="[u'ldrb', u'str', u'ldr', u'b']"];
+	"0x62c" -> "0x6d8";
+	"0x6e8"	 [opcode="[u'ldr', u'cmp', u'mov', u'mov', u'strb', u'ldr', u'b']"];
+	"0x6e8" -> "0x704";
+	"0x71c"	 [opcode="[u'mov', u'sub', u'pop']"];
+	"0x6d8" -> "0x6e8";
+	"0x65c" -> "0x65c";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'ldr', u'ldr', u'ldrb', u'add', u'ldr', u'strb', u'add', u'ldr', u'ldr', u'b']"];
+	"0x5f8" -> "0x6d8";
+}

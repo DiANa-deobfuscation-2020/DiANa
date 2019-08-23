@@ -1,0 +1,30 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents//论文//第二篇论文//2018-08-24交论文后的备份/2019/CFG/basic-algorithms/palindrome/1528_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents//\u8bba\u6587//\u7b2c\u4e8c\u7bc7\u8bba\u6587//2018-08-24\u4ea4\u8bba\u6587\u540e\u7684\u5907\u4efd/\
+2019/CFG/basic-algorithms/palindrome/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x764"	 [opcode="[u'ldr', u'mov', u'bl', u'ldr', u'b']"];
+	"0x92c"	 [opcode="[u'mov', u'sub', u'pop']"];
+	"0x764" -> "0x92c";
+	"0x86c"	 [opcode="[u'ldr', u'ldr', u'str', u'ldr', u'b']"];
+	"0x7f0"	 [opcode="[u'str', u'str', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x86c" -> "0x7f0";
+	"0x8ec"	 [opcode="[u'ldr', u'ldr', u'cmp', u'mov', u'mov', u'strb', u'ldr', u'b']"];
+	"0x8ec" -> "0x764";
+	"0x7c0"	 [opcode="[u'ldr', u'ldr', u'bl', u'ldr', u'b']"];
+	"0x8ec" -> "0x7c0";
+	"0x88c"	 [opcode="[u'ldr', u'ldr', u'smull', u'asr', u'add', u'add', u'sub', u'str', u'ldr', u'b']"];
+	"0x88c" -> "0x7f0";
+	"0x7f0" -> "0x8ec";
+	"0x7f0" -> "0x88c";
+	"0x8b4"	 [opcode="[u'ldr', u'b']"];
+	"0x8b4" -> "0x86c";
+	"0x880"	 [opcode="[u'mov', u'mov', u'b']"];
+	"0x8b4" -> "0x880";
+	"0x880" -> "0x92c";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'add', u'str', u'ldr', u'add', u'b']"];
+	"0x5f8" -> "0x8b4";
+	"0x7c0" -> "0x8b4";
+}

@@ -1,0 +1,460 @@
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/floyd/
+ed Similarity -0.189189
+ed Similarity 0.756098
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/romannumerals/
+ed Similarity -0.242654
+ed Similarity 0.653285
+SE 37%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/insertionsort/
+ed Similarity 0.588571
+ed Similarity 0.352381
+SE 0%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/binarymult/
+ed Similarity 0.095890
+ed Similarity 0.694444
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/perfect/
+ed Similarity -0.202532
+ed Similarity 0.812500
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/binarysearchrec/
+ed Similarity -0.089172
+ed Similarity 0.612903
+SE 21%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/linearsearch/
+ed Similarity -0.256410
+ed Similarity 0.411111
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/sumrec/
+ed Similarity -0.117647
+ed Similarity 0.736842
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/stringtoASCII/
+ed Similarity -0.346154
+ed Similarity 0.636364
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/bubblesort/
+ed Similarity -0.174312
+ed Similarity 0.680556
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/decimaltooctal/
+ed Similarity -0.165714
+ed Similarity 0.854167
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/frequency/
+ed Similarity -0.268657
+ed Similarity 0.735294
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/numtowords/
+ed Similarity -0.429167
+ed Similarity 0.238095
+SE 31%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/selectionsort/
+ed Similarity -0.160305
+ed Similarity 0.875000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/comparestrings/
+ed Similarity 0.122642
+ed Similarity 0.727273
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/pyramid/
+ed Similarity -0.212903
+ed Similarity 0.756098
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/binarysearch/
+ed Similarity -0.186312
+ed Similarity 0.868421
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/factorialrec/
+ed Similarity -0.150000
+ed Similarity 0.882353
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/factorial/
+ed Similarity -0.230263
+ed Similarity 0.674419
+SE 72%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/printinitials/
+ed Similarity -0.231405
+ed Similarity 0.771429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/gcd/
+ed Similarity -0.215116
+ed Similarity 0.775510
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/minmaxarray/
+ed Similarity -0.248062
+ed Similarity 0.800000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/reverse/
+ed Similarity -0.229358
+ed Similarity 0.925926
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/decimaltohex/
+ed Similarity -0.289474
+ed Similarity 0.792453
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/decimaltobinary/
+ed Similarity -0.174157
+ed Similarity 0.854167
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/lcm/
+ed Similarity -0.253425
+ed Similarity 0.911765
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/fib/
+ed Similarity -0.283688
+ed Similarity 0.666667
+SE 38%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/multtable/
+ed Similarity -0.314050
+ed Similarity 0.416667
+SE 45%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/gcdrec/
+ed Similarity -0.163934
+ed Similarity 0.882353
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/palindrome/
+ed Similarity -0.251799
+ed Similarity 0.763158
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/random/
+ed Similarity -0.245098
+ed Similarity 0.703704
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/vowels/
+ed Similarity -0.356021
+ed Similarity 0.364583
+SE 43%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/binaryadd/
+ed Similarity -0.156977
+ed Similarity 0.920000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/concatstrings/
+ed Similarity 0.118421
+ed Similarity 0.692308
+SE 54%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/prime/
+ed Similarity -0.245989
+ed Similarity 0.770833
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/armstrong/
+ed Similarity -0.174825
+ed Similarity 0.928571
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/quicksort/
+ed Similarity -0.301205
+ed Similarity 0.717949
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/basic-algorithms/mergesort/
+ed Similarity -0.309942
+ed Similarity 0.717949
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/jshash/
+ed Similarity -0.165049
+ed Similarity 0.800000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/rshash/
+ed Similarity -0.198198
+ed Similarity 0.925926
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/nohash/
+ed Similarity -0.159091
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/pjwhash/
+ed Similarity -0.156250
+ed Similarity 0.827586
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/fnvhash/
+ed Similarity -0.173077
+ed Similarity 0.800000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/elfhash/
+ed Similarity -0.171717
+ed Similarity 0.851852
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/dekhash/
+ed Similarity -0.150000
+ed Similarity 0.925926
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/bkdrhash/
+ed Similarity -0.192661
+ed Similarity 0.925926
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/simple-hash-functions/djbhash/
+ed Similarity -0.185185
+ed Similarity 0.708333
+SE 0%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-2-2-gt127_gt63_dep-0-0-0/
+ed Similarity -0.220339
+ed Similarity 0.848485
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-1-1-gt127-1-0-1/
+ed Similarity -0.166667
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-2-0-0-dc-2-2-0/
+ed Similarity -0.149425
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-1-0-0-dc-2-2-0/
+ed Similarity -0.171429
+ed Similarity 0.722222
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-1-1-0-dc-1-1-0/
+ed Similarity -0.414634
+ed Similarity 0.200000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-0-0-dc-2-0-1/
+ed Similarity -0.356436
+ed Similarity 0.521739
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-2-1-gt127-0-0-0/
+ed Similarity -0.153846
+ed Similarity 0.782609
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-2-1-1-dc-1-1-0/
+ed Similarity -0.090909
+ed Similarity 0.619048
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-2-2-gt85_lt170-0-0-0/
+ed Similarity -0.184783
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-0-0-dc-1-0-0/
+ed Similarity -0.550000
+ed Similarity -0.222222
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-0-0-dc-1-0-1/
+ed Similarity -0.223881
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-1-1-gtsum127_dep-1-0-1/
+ed Similarity -0.166667
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-2-2-gt127_eq63-0-0-0/
+ed Similarity -0.159091
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-1-0-0-dc-1-1-0/
+ed Similarity -0.055556
+ed Similarity 0.619048
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-2-2-gt63_eq127_dep-0-0-0/
+ed Similarity -0.329670
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-1-0-0-dc-2-1-1/
+ed Similarity -0.223301
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-2-0-0-dc-2-1-1/
+ed Similarity -0.166667
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-1-1-eq127-1-0-1/
+ed Similarity -0.149425
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-1-1-gtsum127-1-0-1/
+ed Similarity -0.203125
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-1-1-eqsum127_dep-1-0-1/
+ed Similarity -0.189474
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-1-0-dc-1-0-1/
+ed Similarity -0.182796
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-1-0-0-dc-2-1-0/
+ed Similarity -0.235849
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-1-1-1-gt127-1-1-0/
+ed Similarity -0.346667
+ed Similarity 0.421053
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-0-0-dc-2-0-2/
+ed Similarity -0.152174
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-2-2-gt63_gt127_dep-0-0-0/
+ed Similarity -0.190000
+ed Similarity 0.846154
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-2-1-eq127-0-0-0/
+ed Similarity -0.127907
+ed Similarity 0.619048
+SE 68%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-2-0-0-dc-2-1-1/
+ed Similarity -0.042105
+ed Similarity 0.787879
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-1-0-0-dc-2-1-1/
+ed Similarity -0.174312
+ed Similarity 0.935484
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-1-0-0-dc-1-1-0/
+ed Similarity -0.223881
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-1-1-eqsum127-1-0-1/
+ed Similarity -0.203125
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-2-1-gt127-0-0-0/
+ed Similarity -0.181818
+ed Similarity 0.814815
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-1-0-dc-0-0-0/
+ed Similarity 0.714286
+ed Similarity 0.358974
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-1-0-0-dc-2-1-0/
+ed Similarity -0.356436
+ed Similarity 0.521739
+SE 16%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-1-0-dc-1-0-1/
+ed Similarity -0.235294
+ed Similarity 0.666667
+SE 16%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-2-2-gt63_gt127-0-0-0/
+ed Similarity -0.161290
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-2-2-eq127_eq63-0-0-0/
+ed Similarity -0.168539
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-0-0-dc-2-0-2/
+ed Similarity -0.359223
+ed Similarity 0.521739
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-1-1-gt127-0-0-0/
+ed Similarity -0.129630
+ed Similarity 0.461538
+SE 74%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-2-1-eq127-0-0-0/
+ed Similarity -0.146341
+ed Similarity 0.814815
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-2-2-gt127_eq63_dep-0-0-0/
+ed Similarity -0.220339
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-2-0-0-dc-2-2-0/
+ed Similarity -0.042105
+ed Similarity 0.787879
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-1-1-1-eq127-0-0-0/
+ed Similarity -0.129630
+ed Similarity 0.736842
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-4-2-1-0-dc-1-1-0/
+ed Similarity -0.112500
+ed Similarity 0.846154
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/1b-1-2-0-0-dc-2-0-1/
+ed Similarity -0.373494
+ed Similarity 0.333333
+SE 100%
+-------start-------
+/Users/mark/Documents/2019/CFG/small-programs/16b-1-1-1-1-dc-1-1-0/
+ed Similarity -0.387097
+ed Similarity 0.625000
+SE 100%

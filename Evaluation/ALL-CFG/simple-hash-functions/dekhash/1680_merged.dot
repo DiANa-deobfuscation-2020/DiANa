@@ -1,0 +1,20 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/simple-hash-functions/dekhash/1680_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/simple-hash-functions/dekhash/1680_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0xb00"	 [opcode="[u'ldr', u'mov', u'mvn', u'ldr', u'b']"];
+	"0x880"	 [opcode="[u'str', u'ldr', u'mov', u'bl', u'ldr', u'mov', u'mov', u'b']"];
+	"0xb00" -> "0x880";
+	"0x960"	 [opcode="[u'ldr', u'bl', u'ldr', u'b']"];
+	"0x808"	 [opcode="[u'ldr', u'ldr', u'ldr', u'sub', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', u'mov', u'ldr', u'cmp', u'mov', u'mov', u'mov', \
+u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x960" -> "0x808";
+	"0x690"	 [opcode="[u'push', u'add', u'sub', u'ldr', u'mov', u'mvn', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'mov', u'eor', \
+u'tst', u'ldr', u'mov', u'mov', u'strb', u'ldr', u'cmp', u'mov', u'strb', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'ldr', \
+u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'add', u'str', u'b']"];
+	"0x690" -> "0x880";
+	"0x880" -> "0x960";
+	"0x880" -> "0x808";
+}

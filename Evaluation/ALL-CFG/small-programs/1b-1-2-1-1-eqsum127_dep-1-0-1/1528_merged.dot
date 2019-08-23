@@ -1,0 +1,30 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-2-1-1-eqsum127_dep-1-0-1/1528_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-2-1-1-eqsum127_dep-1-0-1/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0xcfc"	 [opcode="[u'ldr', u'ldr', u'mul', u'ldr', u'str', u'b']"];
+	"0xb74"	 [opcode="[u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'sub', u'mov', u'mul', u'mov', u'mvn', u'ldr', u'orr', u'cmp', u'mov', u'cmn', \
+u'mov', u'teq', u'ldr', u'mov', u'cmn', u'mov', u'mov', u'cmp', u'mov', u'b']"];
+	"0xcfc" -> "0xb74";
+	"0x9b0"	 [opcode="[u'ldr', u'mov', u'ldr', u'sub', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', u'teq', u'ldr', u'mov', \
+u'cmp', u'mov', u'mov', u'cmp', u'mov', u'b']"];
+	"0x9b0" -> "0xb74";
+	"0xc60"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', u'mov', u'ldr', \
+u'cmp', u'mov', u'mov', u'mov', u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0xc60" -> "0xcfc";
+	"0xc60" -> "0x9b0";
+	"0x898"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'add', u'sub', u'sub', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', u'mov', u'ldr', u'cmp', \
+u'mov', u'mov', u'mov', u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0xa30"	 [opcode="[u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'add', u'sub', u'sub', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', \
+u'mov', u'ldr', u'cmp', u'mov', u'mov', u'mov', u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0xb74" -> "0xa30";
+	"0xa30" -> "0xc60";
+	"0xa30" -> "0x898";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'ldr', u'str', u'mvn', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'mov', u'mvn', u'ldr', u'orr', \
+u'cmn', u'mov', u'mov', u'ldr', u'strb', u'cmp', u'mov', u'strb', u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', \
+u'str', u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'str', \
+u'ldr', u'add', u'str', u'ldr', u'add', u'str', u'str', u'str', u'str', u'b']"];
+	"0x5f8" -> "0xa30";
+}

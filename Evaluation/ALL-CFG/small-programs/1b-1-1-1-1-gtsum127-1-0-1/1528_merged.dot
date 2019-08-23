@@ -1,0 +1,15 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-1-1-1-gtsum127-1-0-1/1528_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-1-1-1-gtsum127-1-0-1/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x678"	 [opcode="[u'ldr', u'ldr', u'add', u'bl', u'mov', u'sub', u'pop']"];
+	"0x610"	 [opcode="[u'ldr', u'ldr', u'add', u'ldr', u'rsb', u'rsb']"];
+	"0x630"	 [opcode="[u'stm', u'ldr', u'ldrb', u'ldr', u'ldr', u'ldr', u'cmp', u'mov']"];
+	"0x610" -> "0x630";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'mov', u'mov', u'b']"];
+	"0x5f8" -> "0x630";
+	"0x630" -> "0x678";
+	"0x630" -> "0x610";
+}

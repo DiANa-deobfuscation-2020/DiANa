@@ -1,0 +1,40 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/gcd/1836_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/gcd/1836_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0xee4"	 [opcode="[u'ldr', u'mov', u'ldr', u'sub', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', u'teq', u'ldr', u'ldr']"];
+	"0xbe0"	 [opcode="[u'ldr', u'ldr', u'tst', u'mov', u'b']"];
+	"0xee4" -> "0xbe0";
+	"0xe24"	 [opcode="[u'ldr', u'ldr', u'mov', u'cmp', u'ldr', u'mov', u'b']"];
+	"0xee4" -> "0xe24";
+	"0xda4"	 [opcode="[u'ldr', u'ldr', u'b']"];
+	"0x910"	 [opcode="[u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'mov', u'rsb', u'cmp', u'mvn', u'mov', u'mul', u'mov', u'mvn', u'ldr', u'orr', u'cmn', \
+u'mov', u'teq', u'ldr', u'b']"];
+	"0xda4" -> "0x910";
+	"0x100c"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'mov', u'rsb', u'cmp', u'mvn', u'mov', u'mul', u'mov', u'mvn', u'ldr', u'orr', u'cmn', u'mov', \
+u'teq', u'ldr']"];
+	"0xbe0" -> "0x100c";
+	"0xf54"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'bl', u'ldr', u'mov']"];
+	"0xbe0" -> "0xf54";
+	"0xe24" -> "0xbe0";
+	"0xa14"	 [opcode="[u'ldr', u'ldr', u'bl', u'ldr', u'cmp', u'ldr', u'ldr', u'mov', u'b']"];
+	"0x100c" -> "0xa14";
+	"0x100c" -> "0x910";
+	"0x72c"	 [opcode="[u'push', u'add', u'sub', u'str', u'ldr', u'str', u'mvn', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'add', \
+u'mul', u'mov', u'mvn', u'ldr', u'orr', u'cmn', u'mov', u'mov', u'ldr', u'strb', u'cmp', u'mov', u'strb', u'ldr', u'ldr', u'str', \
+u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'str', u'ldr', \
+u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'add', u'str', u'str', u'str', \
+u'str', u'b']"];
+	"0x72c" -> "0xee4";
+	"0x994"	 [opcode="[u'mov', u'b']"];
+	"0x72c" -> "0x994";
+	"0xccc"	 [opcode="[u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'eor', u'and', u'ldr', u'mov', u'mov', u'ldr', u'cmp', \
+u'mov', u'cmp', u'mov', u'mov', u'cmp', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x994" -> "0xccc";
+	"0xa14" -> "0xda4";
+	"0xa14" -> "0x910";
+	"0x910" -> "0xee4";
+	"0xf54" -> "0xccc";
+}

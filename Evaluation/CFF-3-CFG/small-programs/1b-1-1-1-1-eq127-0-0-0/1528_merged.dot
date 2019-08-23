@@ -1,0 +1,20 @@
+digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents//论文//第二篇论文//2018-08-24交论文后的备份/2019/CFG/small-programs/1b-1-1-1-1-eq127-0-0-0/1528_\
+recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents//\u8bba\u6587//\u7b2c\u4e8c\u7bc7\u8bba\u6587//2018-08-24\u4ea4\u8bba\u6587\u540e\u7684\u5907\u4efd/\
+2019/CFG/small-programs/1b-1-1-1-1-eq127-0-0-0/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x6ac"	 [opcode="[u'mov', u'bl', u'ldr', u'b']"];
+	"0x65c"	 [opcode="[u'ldr', u'cmp', u'mov', u'b']"];
+	"0x6ac" -> "0x65c" [key=0];
+"0x690" [opcode="[u'mov', u'bl', u'ldr', u'b']"];
+"0x6d8" [opcode="[u'ldrb', u'str', u'ldr', u'b']"];
+"0x690" -> "0x6d8" [key=0];
+"0x6d8" -> "0x6ac" [key=0];
+"0x6d8" -> "0x690" [key=0];
+"0x65c" -> "0x65c" [key=0];
+"0x5f8" [opcode="[u'push', u'add', u'sub', u'ldr', u'ldr', u'ldrb', u'add', u'ldr', u'strb', u'add', u'ldr', u'ldr', u'b']"];
+"0x5f8" -> "0x6d8" [key=0];
+}

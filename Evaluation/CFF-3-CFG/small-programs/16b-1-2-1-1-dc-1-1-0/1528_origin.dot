@@ -1,0 +1,15 @@
+digraph "" {
+	"0x610"	 [opcode="[u'and', u'add', u'ldrb', u'cmp', u'b']"];
+	"0x610" -> "0x610";
+	"0x624"	 [opcode="[u'b']"];
+	"0x610" -> "0x624";
+	"0x62c"	 [opcode="[u'push', u'mov', u'ldr', u'add', u'bl', u'mov', u'pop']"];
+	"0x608"	 [opcode="[u'add', u'mov']"];
+	"0x608" -> "0x610";
+	"0x628"	 [opcode="[u'mov']"];
+	"0x628" -> "0x62c";
+	"0x624" -> "0x62c";
+	"0x5f8"	 [opcode="[u'ldr', u'ldrb', u'cmp', u'b']"];
+	"0x5f8" -> "0x608";
+	"0x5f8" -> "0x628";
+}

@@ -1,0 +1,38 @@
+digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/iofile/2108_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/iofile/2108_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0xd6c"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'mov', u'add', u'cmp', u'sub', u'mov', u'sub', u'mul', u'mov', u'mvn', u'orr', u'cmn', \
+u'mov', u'teq', u'ldr', u'mov', u'cmn', u'mov', u'mov']"];
+	"0xdd4"	 [opcode="[u'ldr', u'bl', u'and', u'str', u'ldr', u'b']"];
+	"0xd6c" -> "0xdd4";
+	"0xca4"	 [opcode="[u'ldr', u'mov', u'mov', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'sub', u'mul', u'mvn', u'mov', u'orr', u'ldr', u'ldr']"];
+	"0xff0"	 [opcode="[u'bl', u'mov', u'bl', u'and', u'ldrbt']"];
+	"0xca4" -> "0xff0";
+	"0x960"	 [opcode="[u'mov', u'bl', u'ldr', u'bl', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'eor', u'and', u'ldr', u'\
+ldr', u'ldr', u'mov', u'mov', u'cmp', u'mov', u'b']"];
+	"0xf10"	 [opcode="[u'cmp', u'mov', u'mov', u'cmp', u'mov', u'mov', u'b']"];
+	"0x960" -> "0xf10";
+	"0xf2c"	 [opcode="[u'sub', u'str', u'ldr', u'bl', u'bl', u'ldr', u'ldr', u'bl', u'ldr', u'bl', u'ldr', u'ldr', u'bl', u'str', u'ldr', u'ldr', u'ldr', \
+u'cmp', u'mov', u'b']"];
+	"0xf2c" -> "0xd6c";
+	"0xf2c" -> "0xca4";
+	"0x83c"	 [opcode="[u'push', u'add', u'sub', u'str', u'ldr', u'cmp', u'mvn', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'mov', u'ldr', u'str', \
+u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'str', u'ldr', u'str', \
+u'ldr', u'add', u'str', u'ldr', u'add', u'str', u'ldr', u'add', u'str', u'ldr', u'add', u'str', u'ldr', u'add', u'str', u'ldr', \
+u'add', u'str', u'b']"];
+	"0xe60"	 [opcode="[u'ldr', u'mov', u'b']"];
+	"0x83c" -> "0xe60";
+	"0xdec"	 [opcode="[u'ldr', u'ldr', u'ldr', u'sub', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', u'mov', u'ldr', u'cmp', u'mov', u'mov', u'mov', \
+u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x83c" -> "0xdec";
+	"0xdd4" -> "0xdd4";
+	"0xa90"	 [opcode="[u'ldr', u'mov', u'mov', u'ldr', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'sub', u'sub', u'add', u'mul', u'mvn', u'mov', u'orr', \
+u'ldr', u'ldr', u'b']"];
+	"0xa90" -> "0xff0";
+	"0xf10" -> "0xf2c";
+	"0xdec" -> "0xf2c";
+	"0xdec" -> "0xa90";
+}

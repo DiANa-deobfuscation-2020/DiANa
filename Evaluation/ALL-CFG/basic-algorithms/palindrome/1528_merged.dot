@@ -1,0 +1,36 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/palindrome/1528_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/basic-algorithms/palindrome/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0xbf0"	 [opcode="[u'ldr', u'mov', u'ldr', u'ldr', u'add', u'sub', u'sub', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', \
+u'teq', u'ldr', u'mov', u'cmp', u'mov', u'mov', u'b']"];
+	"0xc64"	 [opcode="[u'ldr', u'mov', u'str', u'ldr', u'ldr', u'ldr', u'add', u'sub', u'sub', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', \
+u'cmp', u'mov', u'teq', u'ldr', u'mov', u'cmp', u'mov', u'mov']"];
+	"0xbf0" -> "0xc64";
+	"0x940"	 [opcode="[u'mov']"];
+	"0x940" -> "0xc64";
+	"0xa7c"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'eor', u'and', u'ldr', u'mov', u'mov', u'ldr', u'cmp', u'mov', u'cmp', \
+u'mov', u'mov', u'cmp', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0xcd0"	 [opcode="[u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0xa7c" -> "0xcd0";
+	"0xbc8"	 [opcode="[u'ldr', u'ldr', u'ldrb', u'str', u'mov', u'str', u'ldr']"];
+	"0xbc8" -> "0xcd0";
+	"0xd60"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x978"	 [opcode="[u'ldr', u'mov', u'ldr', u'ldr', u'add', u'sub', u'sub', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', \
+u'teq', u'ldr', u'mov', u'cmp', u'mov', u'mov', u'b']"];
+	"0xd60" -> "0x978";
+	"0x744"	 [opcode="[u'ldr', u'ldr', u'bl', u'mov', u'b']"];
+	"0xd60" -> "0x744";
+	"0x978" -> "0x940";
+	"0x744" -> "0x940";
+	"0xcd0" -> "0xa7c";
+	"0xcd0" -> "0xd60";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'str', u'ldr', u'str', u'mvn', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'mov', u'eor', u'tst', \
+u'ldr', u'mov', u'mov', u'strb', u'ldr', u'cmp', u'mov', u'strb', u'ldr', u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', \
+u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'str', u'ldr', u'add', \
+u'str', u'ldr', u'add', u'str', u'ldr', u'add', u'str', u'str', u'str', u'str', u'b']"];
+	"0x5f8" -> "0xbf0";
+	"0x5f8" -> "0xbc8";
+}

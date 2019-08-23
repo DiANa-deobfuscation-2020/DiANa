@@ -1,0 +1,485 @@
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/floyd/
+ed Similarity -0.180556
+ed Similarity 0.756098
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/romannumerals/
+ed Similarity -0.164127
+ed Similarity 0.789030
+SE 81%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/insertionsort/
+ed Similarity 0.667683
+ed Similarity 0.027473
+SE 20%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/binarymult/
+ed Similarity 0.250000
+ed Similarity 0.803030
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/perfect/
+ed Similarity -0.167785
+ed Similarity 0.869565
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/binarysearchrec/
+ed Similarity -0.060403
+ed Similarity 0.785714
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/linearsearch/
+ed Similarity -0.211454
+ed Similarity 0.684932
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/sumrec/
+ed Similarity 0.055556
+ed Similarity 0.782609
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/stringtoASCII/
+ed Similarity -0.358974
+ed Similarity 0.625000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/bubblesort/
+ed Similarity -0.076503
+ed Similarity 0.828125
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/decimaltooctal/
+ed Similarity 0.015625
+ed Similarity 0.818182
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/iofile/
+ed Similarity -0.324742
+ed Similarity 0.775000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/frequency/
+ed Similarity -0.393519
+ed Similarity 0.512195
+SE 72%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/numtowords/
+ed Similarity -0.387755
+ed Similarity 0.282828
+SE 80%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/selectionsort/
+ed Similarity -0.176471
+ed Similarity 0.875000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/comparestrings/
+ed Similarity 0.345238
+ed Similarity 0.808511
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/pyramid/
+ed Similarity -0.300493
+ed Similarity 0.756098
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/binarysearch/
+ed Similarity -0.146939
+ed Similarity 0.682353
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/factorialrec/
+ed Similarity -0.161290
+ed Similarity 0.882353
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/factorial/
+ed Similarity -0.228758
+ed Similarity 0.848485
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/printinitials/
+ed Similarity -0.306250
+ed Similarity 0.771429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/gcd/
+ed Similarity -0.313901
+ed Similarity 0.829787
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/minmaxarray/
+ed Similarity -0.187500
+ed Similarity 0.771429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/reverse/
+ed Similarity -0.014493
+ed Similarity 0.827586
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/decimaltohex/
+ed Similarity -0.205405
+ed Similarity 0.792453
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/decimaltobinary/
+ed Similarity -0.116564
+ed Similarity 0.854167
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/lcm/
+ed Similarity -0.242857
+ed Similarity 0.911765
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/fib/
+ed Similarity -0.037037
+ed Similarity 0.827586
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/multtable/
+ed Similarity -0.330769
+ed Similarity 0.769231
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/gcdrec/
+ed Similarity 0.312500
+ed Similarity 0.882353
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/palindrome/
+ed Similarity -0.300613
+ed Similarity 0.710526
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/random/
+ed Similarity -0.284483
+ed Similarity 0.703704
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/vowels/
+ed Similarity -0.392377
+ed Similarity 0.216667
+SE 54%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/binaryadd/
+ed Similarity -0.152542
+ed Similarity 0.905660
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/concatstrings/
+ed Similarity 0.128205
+ed Similarity 0.736842
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/prime/
+ed Similarity -0.267327
+ed Similarity 0.666667
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/armstrong/
+ed Similarity -0.207792
+ed Similarity 0.880952
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/quicksort/
+ed Similarity -0.073684
+ed Similarity 0.717949
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/basic-algorithms/mergesort/
+ed Similarity -0.213740
+ed Similarity 0.595238
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/sdbmhash/
+ed Similarity -0.289655
+ed Similarity 0.526316
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/jshash/
+ed Similarity -0.125000
+ed Similarity 0.925926
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/rshash/
+ed Similarity 0.062500
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/nohash/
+ed Similarity -0.102564
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/pjwhash/
+ed Similarity -0.062500
+ed Similarity 0.851852
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/fnvhash/
+ed Similarity -0.082353
+ed Similarity 0.925926
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/bphash/
+ed Similarity -0.177570
+ed Similarity 0.833333
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/elfhash/
+ed Similarity 0.061538
+ed Similarity 0.851852
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/dekhash/
+ed Similarity -0.177570
+ed Similarity 0.708333
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/bkdrhash/
+ed Similarity -0.095238
+ed Similarity 0.545455
+SE 0%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/simple-hash-functions/djbhash/
+ed Similarity 0.254902
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-2-2-gt127_gt63_dep-0-0-0/
+ed Similarity 0.138462
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-1-1-gt127-1-0-1/
+ed Similarity -0.242991
+ed Similarity 0.583333
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-2-0-0-dc-2-2-0/
+ed Similarity -0.042857
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-1-0-0-dc-2-2-0/
+ed Similarity -0.075630
+ed Similarity 0.722222
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-1-1-0-dc-1-1-0/
+ed Similarity -0.219512
+ed Similarity 0.277778
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-0-0-dc-2-0-1/
+ed Similarity -0.287500
+ed Similarity 0.521739
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-2-1-gt127-0-0-0/
+ed Similarity -0.014286
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-2-1-1-dc-1-1-0/
+ed Similarity -0.042857
+ed Similarity 0.619048
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-2-2-gt85_lt170-0-0-0/
+ed Similarity -0.254237
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-0-0-dc-1-0-1/
+ed Similarity -0.310345
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-1-1-gtsum127_dep-1-0-1/
+ed Similarity -0.296296
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-2-2-gt127_eq63-0-0-0/
+ed Similarity 0.120690
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-1-0-0-dc-1-1-0/
+ed Similarity 0.063492
+ed Similarity 0.814815
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-2-2-gt63_eq127_dep-0-0-0/
+ed Similarity -0.227273
+ed Similarity 0.833333
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-1-0-0-dc-2-1-1/
+ed Similarity 0.215686
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-2-0-0-dc-2-1-1/
+ed Similarity -0.238095
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-1-1-eq127-1-0-1/
+ed Similarity -0.141176
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-1-1-gtsum127-1-0-1/
+ed Similarity 0.321429
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-1-1-eqsum127_dep-1-0-1/
+ed Similarity -0.353659
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-1-0-dc-1-0-1/
+ed Similarity -0.123457
+ed Similarity 0.814815
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-1-0-0-dc-2-1-0/
+ed Similarity -0.295455
+ed Similarity 0.526316
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-1-1-1-gt127-1-1-0/
+ed Similarity -0.365854
+ed Similarity 0.421053
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-0-0-dc-2-0-2/
+ed Similarity -0.264463
+ed Similarity 0.526316
+SE 41%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-2-2-gt63_gt127_dep-0-0-0/
+ed Similarity -0.281250
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-2-1-eq127-0-0-0/
+ed Similarity -0.087500
+ed Similarity 0.619048
+SE 80%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-2-0-0-dc-2-1-1/
+ed Similarity -0.135135
+ed Similarity 0.787879
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-1-0-0-dc-2-1-1/
+ed Similarity -0.246377
+ed Similarity 0.935484
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-1-0-0-dc-1-1-0/
+ed Similarity -0.218750
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-1-1-eqsum127-1-0-1/
+ed Similarity -0.223881
+ed Similarity 0.750000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-2-1-gt127-0-0-0/
+ed Similarity -0.057971
+ed Similarity 0.578947
+SE 57%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-1-0-dc-0-0-0/
+ed Similarity 0.337209
+ed Similarity 0.723404
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-1-0-0-dc-2-1-0/
+ed Similarity -0.385965
+ed Similarity 0.108108
+SE 72%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-1-0-dc-1-0-1/
+ed Similarity -0.123077
+ed Similarity 0.680000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-2-2-gt63_gt127-0-0-0/
+ed Similarity -0.209524
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-2-2-eq127_eq63-0-0-0/
+ed Similarity -0.053333
+ed Similarity 0.821429
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-0-0-dc-2-0-2/
+ed Similarity -0.406250
+ed Similarity 0.521739
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-1-1-gt127-0-0-0/
+ed Similarity -0.235294
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-2-2-gt63_eq127-0-0-0/
+ed Similarity 0.270833
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-2-1-1-gt127-1-1-0/
+ed Similarity -0.097561
+ed Similarity 0.846154
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-2-1-eq127-0-0-0/
+ed Similarity -0.057971
+ed Similarity 0.666667
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-2-2-gt127_eq63_dep-0-0-0/
+ed Similarity -0.260870
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-2-0-0-dc-2-2-0/
+ed Similarity 0.116883
+ed Similarity 0.794872
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-1-1-1-eq127-0-0-0/
+ed Similarity -0.227273
+ed Similarity 1.000000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-4-2-1-0-dc-1-1-0/
+ed Similarity -0.284615
+ed Similarity 0.571429
+SE 33%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/1b-1-2-0-0-dc-2-0-1/
+ed Similarity -0.446281
+ed Similarity 0.333333
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-1-1-1-dc-1-1-0/
+ed Similarity -0.253012
+ed Similarity 0.625000
+SE 100%
+-------start-------
+/Users/mark/Documents/deobfus-2019/ALL-CFG/small-programs/16b-1-1-1-0-dc-1-1-0/
+ed Similarity -0.361345
+ed Similarity 0.541667
+SE 100%

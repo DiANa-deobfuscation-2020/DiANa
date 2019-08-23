@@ -1,0 +1,28 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-2-0-0-dc-2-0-1/1528_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-2-0-0-dc-2-0-1/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0xa68"	 [opcode="[u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldrb', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0xab4"	 [opcode="[u'ldr', u'ldr', u'ldr', u'sub', u'mul', u'eor', u'and', u'ldr', u'mov', u'mov', u'ldr', u'cmp', u'mov', u'cmp', u'mov', u'mov', \
+u'cmp', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0xa68" -> "0xab4";
+	"0x8c4"	 [opcode="[u'ldr', u'ldr', u'ldr', u'sub', u'add', u'add', u'str', u'ldr', u'add', u'str', u'ldr', u'b']"];
+	"0xa68" -> "0x8c4";
+	"0x900"	 [opcode="[u'ldr', u'mov', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', \
+u'teq', u'ldr', u'ldr', u'mov', u'cmp', u'mov', u'mov']"];
+	"0x900" -> "0xa68";
+	"0x74c"	 [opcode="[u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'eor', u'and', u'ldr', u'mov', u'mov', u'ldr', u'cmp', u'mov', u'cmp', \
+u'mov', u'mov', u'cmp', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x7d0"	 [opcode="[u'ldr', u'mov', u'str', u'ldr', u'str', u'ldr', u'ldr', u'sub', u'mul', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', \
+u'mov', u'teq', u'mov', u'mov', u'cmp', u'mov', u'mov', u'b']"];
+	"0x7d0" -> "0x900";
+	"0x7d0" -> "0x74c";
+	"0xab4" -> "0x7d0";
+	"0x8c4" -> "0xa68";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'mov', u'str', u'mvn', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', \
+u'ldr', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'add', u'str', u'ldr', u'str', u'add', u'str', u'str', u'str', u'mov', u'str', \
+u'mov', u'b']"];
+	"0x5f8" -> "0x7d0";
+}

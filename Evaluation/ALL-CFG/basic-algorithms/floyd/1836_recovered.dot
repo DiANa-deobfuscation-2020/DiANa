@@ -1,0 +1,49 @@
+strict digraph "" {
+	"0x848"	 [opcode="[u'ldr', u'ldr', u'ldr', u'b']"];
+	"0xa8c"	 [opcode="[u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'mov', u'strb', u'ldr', u'ldr', u'ldr', u'add', u'sub', u'sub', u'mul', u'eor', u'and', \
+u'ldr', u'ldr', u'mov', u'mov', u'cmp', u'mov', u'b']"];
+	"0x848" -> "0xa8c";
+	"0xcc8"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'sub', u'ldr', u'sub', u'pop']"];
+	"0x910"	 [opcode="[u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'add', u'sub', u'sub', u'mul', u'eor', u'and', u'ldr', u'mov', \
+u'mov', u'ldr', u'cmp', u'mov', u'cmp', u'mov', u'mov', u'cmp', u'mov', u'mov', u'b']"];
+	"0x910" -> "0xa8c";
+	"0xb28"	 [opcode="[u'ldrb', u'ldr', u'ldr', u'b']"];
+	"0xc40"	 [opcode="[u'mov', u'b']"];
+	"0xb28" -> "0xc40";
+	"0xc74"	 [opcode="[u'ldr', u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', u'mov', u'ldr', u'cmp', u'mov', u'mov', \
+u'mov', u'cmn', u'mov', u'mov', u'b']"];
+	"0xb28" -> "0xc74";
+	"0xb38"	 [opcode="[u'ldr', u'str', u'ldr', u'ldr', u'bl', u'bl', u'ldr', u'ldr', u'ldr', u'ldrb', u'str', u'ldr', u'ldr', u'rsb', u'mvn', u'mul', \
+u'eor', u'and', u'ldr', u'ldr', u'mov', u'mov', u'cmp', u'mov']"];
+	"0xc28"	 [opcode="[u'mov', u'str', u'mov', u'str', u'ldr', u'b']"];
+	"0xb38" -> "0xc28";
+	"0xb04"	 [opcode="[u'mov', u'bl', u'ldr', u'add', u'str', u'ldr', u'str', u'ldr', u'b']"];
+	"0xb04" -> "0x910";
+	"0xbd4"	 [opcode="[u'ldrb', u'ldrb', u'mov', u'cmp', u'mov', u'cmp', u'mov', u'teq', u'mov', u'b']"];
+	"0x9ec"	 [opcode="[u'sub', u'mov', u'str', u'ldr', u'mvn', u'mov', u'cmp', u'mov', u'mov', u'strb', u'ldr', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', \
+u'sub', u'mul', u'mvn', u'mov', u'orr', u'ldr', u'cmn', u'mov', u'teq', u'mov', u'mvn', u'mov', u'cmn', u'mov', u'cmp', u'mov', \
+u'b']"];
+	"0xbd4" -> "0x9ec";
+	"0xc48"	 [opcode="[u'ldr', u'mov']"];
+	"0xc48" -> "0xcc8";
+	"0x998"	 [opcode="[u'ldr', u'ldr', u'bl', u'ldr', u'rsb', u'rsb', u'str', u'ldr', u'rsb', u'rsb', u'str', u'mov', u'b']"];
+	"0xbfc"	 [opcode="[u'ldr', u'str', u'ldr', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x998" -> "0xbfc";
+	"0x9ec" -> "0xb28";
+	"0x898"	 [opcode="[u'ldr', u'ldr', u'bl', u'bl', u'ldr', u'b']"];
+	"0x898" -> "0xb38";
+	"0xc28" -> "0x910";
+	"0xc40" -> "0xcc8";
+	"0x72c"	 [opcode="[u'push', u'add', u'sub', u'str', u'ldr', u'str', u'mvn', u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'mov', \
+u'mvn', u'ldr', u'orr', u'cmn', u'mov', u'mov', u'ldr', u'strb', u'cmp', u'mov', u'strb', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', \
+u'ldr', u'ldr', u'str', u'ldr', u'ldr', u'str', u'ldr', u'str', u'ldr', u'add', u'str', u'str', u'str', u'str', u'str', u'str', \
+u'b']"];
+	"0x72c" -> "0xbd4";
+	"0xc74" -> "0xb38";
+	"0xc5c"	 [opcode="[u'mov', u'str', u'ldr', u'str', u'mov', u'b']"];
+	"0xc5c" -> "0xbfc";
+	"0xbfc" -> "0xb04";
+	"0xbfc" -> "0x998";
+	"0xa8c" -> "0xc48";
+	"0xa8c" -> "0xc5c";
+}

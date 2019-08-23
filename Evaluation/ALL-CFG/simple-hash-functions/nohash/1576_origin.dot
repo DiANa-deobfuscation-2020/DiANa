@@ -1,0 +1,8 @@
+strict digraph "" {
+	"0x654"	 [opcode="[u'mov', u'pop']"];
+	"0x628"	 [opcode="[u'push', u'mov', u'ldr', u'ldr', u'add', u'bl', u'cmp', u'b']"];
+	"0x628" -> "0x654";
+	"0x648"	 [opcode="[u'ldr', u'add', u'bl']"];
+	"0x628" -> "0x648";
+	"0x648" -> "0x654";
+}

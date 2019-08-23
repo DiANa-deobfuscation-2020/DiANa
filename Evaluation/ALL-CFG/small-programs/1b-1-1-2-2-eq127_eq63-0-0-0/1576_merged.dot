@@ -1,0 +1,24 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-1-2-2-eq127_eq63-0-0-0/1576_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/1b-1-1-2-2-eq127_eq63-0-0-0/1576_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x7fc"	 [opcode="[u'ldr', u'bl', u'mov', u'b']"];
+	"0x880"	 [opcode="[u'mov', u'sub', u'pop']"];
+	"0x7fc" -> "0x880";
+	"0x794"	 [opcode="[u'ldr', u'mov', u'ldr', u'rsb', u'mvn', u'mul', u'mvn', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'cmp', u'mov', u'teq', \
+u'mov', u'mov', u'cmp', u'mov', u'mov', u'cmp', u'mov', u'b']"];
+	"0x794" -> "0x880";
+	"0x7f4"	 [opcode="[u'ldr', u'b']"];
+	"0x6d8"	 [opcode="[u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x7f4" -> "0x6d8";
+	"0x628"	 [opcode="[u'push', u'add', u'sub', u'ldr', u'ldr', u'ldrb', u'add', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'str', u'ldr', u'add', \
+u'str', u'ldr', u'add', u'str', u'ldr', u'add', u'ldr', u'add', u'b']"];
+	"0x628" -> "0x7f4";
+	"0x78c"	 [opcode="[u'mov', u'b']"];
+	"0x628" -> "0x78c";
+	"0x6d8" -> "0x7fc";
+	"0x6d8" -> "0x794";
+	"0x78c" -> "0x6d8";
+}

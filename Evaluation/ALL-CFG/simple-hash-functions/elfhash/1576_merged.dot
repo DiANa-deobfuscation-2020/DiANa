@@ -1,0 +1,22 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/simple-hash-functions/elfhash/1576_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/simple-hash-functions/elfhash/1576_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x654"	 [opcode="[u'ldr', u'mvn', u'orr', u'mvn', u'ldr', u'ldr', u'rsb', u'add', u'rsb']"];
+	"0x758"	 [opcode="[u'str', u'str', u'str', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x654" -> "0x758";
+	"0x6f4"	 [opcode="[u'ldr', u'ldr', u'ldrb', u'ldr', u'sub', u'add', u'mvn', u'add', u'str', u'ldr', u'eor', u'and', u'str', u'ldr', u'ldr', u'ldr', \
+u'cmp', u'mov', u'b']"];
+	"0x6f4" -> "0x654";
+	"0x6bc"	 [opcode="[u'ldr', u'ldr', u'bic', u'mvn', u'and', u'orr', u'mov', u'b']"];
+	"0x6f4" -> "0x6bc";
+	"0x628"	 [opcode="[u'push', u'add', u'sub', u'ldr', u'ldr', u'ldr', u'ldr', u'mov', u'mvn', u'mov', u'b']"];
+	"0x628" -> "0x758";
+	"0x7f8"	 [opcode="[u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'mvn', u'ldr', u'orr', u'mov', u'cmn', u'mov', u'ldr', u'cmp', u'mov', u'mov', u'mov', \
+u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x6bc" -> "0x654";
+	"0x758" -> "0x6f4";
+	"0x758" -> "0x7f8";
+}

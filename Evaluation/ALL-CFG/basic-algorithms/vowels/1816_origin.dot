@@ -1,0 +1,32 @@
+strict digraph "" {
+	"0x770"	 [opcode="[u'ldrb', u'sub', u'cmp', u'b']"];
+	"0x780"	 [opcode="[u'lsl', u'add', u'ldr', u'add']"];
+	"0x770" -> "0x780";
+	"0x864"	 [opcode="[u'cmp', u'b']"];
+	"0x770" -> "0x864";
+	"0x86c"	 [opcode="[u'and', u'sub', u'and', u'cmp', u'b']"];
+	"0x880"	 [opcode="[u'add', u'add', u'b']"];
+	"0x86c" -> "0x880";
+	"0x88c"	 [opcode="[u'cmp', u'b']"];
+	"0x86c" -> "0x88c";
+	"0x718"	 [opcode="[u'push', u'add', u'sub', u'mov', u'ldr', u'cmp', u'ldr', u'ldr', u'str', u'mov', u'b']"];
+	"0x8f8"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'pop']"];
+	"0x718" -> "0x8f8";
+	"0x744"	 [opcode="[u'ldr', u'mov', u'bl', u'bl', u'mov', u'mov', u'mov', u'mov', u'b']"];
+	"0x718" -> "0x744";
+	"0x880" -> "0x770";
+	"0x89c"	 [opcode="[u'add', u'add', u'b']"];
+	"0x89c" -> "0x770";
+	"0x894"	 [opcode="[u'cmp', u'b']"];
+	"0x88c" -> "0x894";
+	"0x8a8"	 [opcode="[u'cmp', u'add', u'add', u'b']"];
+	"0x88c" -> "0x8a8";
+	"0x864" -> "0x86c";
+	"0x8b8"	 [opcode="[u'ldr', u'add', u'bl', u'ldr', u'mov', u'add', u'bl', u'ldr', u'mov', u'add', u'bl', u'ldr', u'mov', u'add', u'bl', u'mov']"];
+	"0x864" -> "0x8b8";
+	"0x744" -> "0x770";
+	"0x8b8" -> "0x8f8";
+	"0x894" -> "0x89c";
+	"0x894" -> "0x8a8";
+	"0x8a8" -> "0x770";
+}

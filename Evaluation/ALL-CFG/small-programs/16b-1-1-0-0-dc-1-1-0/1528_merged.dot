@@ -1,0 +1,16 @@
+strict digraph "" {
+	graph ["edge"="{}",
+		file="/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/16b-1-1-0-0-dc-1-1-0/1528_recovered.dot",
+		"graph"="{u'file': u'/Users/mark/Documents/deobfus-2019-ccs/ALL-CFG/small-programs/16b-1-1-0-0-dc-1-1-0/1528_recovered.dot'}",
+		"node"="{u'opcode': u''}"
+	];
+	"0x698"	 [opcode="[u'str', u'str', u'ldr', u'ldrb', u'strb', u'ldr', u'ldr', u'ldrb', u'cmp', u'mov']"];
+	"0x678"	 [opcode="[u'ldrb', u'ldr', u'add', u'ldr', u'ldr', u'add']"];
+	"0x698" -> "0x678";
+	"0x794"	 [opcode="[u'ldr', u'ldr', u'add', u'bl', u'mov', u'sub', u'pop']"];
+	"0x698" -> "0x794";
+	"0x678" -> "0x698";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'ldr', u'mov', u'ldr', u'rsb', u'mvn', u'mul', u'mvn', u'mvn', u'ldr', u'orr', u'ldr', u'ldr', u'cmn', \
+u'ldr', u'mov', u'mov', u'cmp', u'mov', u'cmn', u'mov', u'mov', u'cmp', u'mov', u'strb', u'strb', u'teq', u'ldr', u'mov', u'b']"];
+	"0x5f8" -> "0x698";
+}

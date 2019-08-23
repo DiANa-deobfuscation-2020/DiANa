@@ -1,0 +1,34 @@
+strict digraph "" {
+	"0x934"	 [opcode="[u'ldr', u'str', u'str', u'ldr', u'ldrb', u'str', u'ldr', u'ldr', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x968"	 [opcode="[u'ldr', u'ldr', u'add', u'bl', u'mov', u'sub', u'pop']"];
+	"0x934" -> "0x968";
+	"0x8d8"	 [opcode="[u'ldr', u'mvn', u'mov', u'ldr', u'rsb', u'mvn', u'mul', u'mvn', u'ldr', u'orr', u'cmn', u'mov', u'ldr', u'cmp', u'mov', u'mov', \
+u'mov', u'cmn', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x934" -> "0x8d8";
+	"0x700"	 [opcode="[u'ldr', u'ldr', u'mov', u'mul', u'b']"];
+	"0x6bc"	 [opcode="[u'ldr', u'ldr', u'mov', u'add', u'b']"];
+	"0x700" -> "0x6bc";
+	"0x738"	 [opcode="[u'ldr', u'ldr', u'ldr', u'sub', u'sub', u'add', u'mul', u'mvn', u'mov', u'eor', u'and', u'ldr', u'mov', u'ldr', u'mov', u'cmp', \
+u'mov', u'teq', u'mov', u'mov', u'cmp', u'mov', u'mov', u'cmp', u'mov', u'b']"];
+	"0x7d4"	 [opcode="[u'ldr', u'ldr', u'mov', u'add', u'str', u'ldr', u'ldr', u'ldr', u'sub', u'mul', u'mvn', u'eor', u'and', u'ldr', u'mov', u'ldr', \
+u'cmp', u'mov', u'cmp', u'mov', u'mov', u'cmp', u'mov', u'mov', u'teq', u'mov', u'b']"];
+	"0x738" -> "0x7d4";
+	"0x840"	 [opcode="[u'ldr', u'mov', u'b']"];
+	"0x864"	 [opcode="[u'ldr', u'ldr', u'cmp', u'mov', u'mov', u'strb', u'ldr', u'ldr', u'rsb', u'mvn', u'mul', u'ldr', u'mvn', u'ldr', u'mov', u'eor', \
+u'and', u'mov', u'mov', u'cmp', u'mov', u'teq', u'mov', u'mov', u'cmp', u'mov', u'cmp', u'mov', u'b']"];
+	"0x840" -> "0x864";
+	"0x7c8"	 [opcode="[u'ldr', u'mov', u'b']"];
+	"0x7d4" -> "0x7c8";
+	"0x8d8" -> "0x864";
+	"0x84c"	 [opcode="[u'ldrb', u'ldr', u'ldr', u'cmp', u'mov', u'b']"];
+	"0x864" -> "0x84c";
+	"0x630"	 [opcode="[u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', \
+u'ldr', u'ldr', u'ldr', u'mov']"];
+	"0x630" -> "0x7d4";
+	"0x7c8" -> "0x6bc";
+	"0x5f8"	 [opcode="[u'push', u'add', u'sub', u'str', u'mov', u'mov', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'ldr', u'str', u'b']"];
+	"0x5f8" -> "0x934";
+	"0x84c" -> "0x700";
+	"0x84c" -> "0x738";
+	"0x6bc" -> "0x934";
+}
