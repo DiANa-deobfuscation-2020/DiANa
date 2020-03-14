@@ -51,3 +51,6 @@ After deobfuscation of Control Flow Flattening, a file named ``XXX_recovered.dot
 ``` 
 pip install -r requriements.txt 
 ```
+
+## Acknowledgement
+The implementation of symbol execution in DiANa (CFF part) inspried by the deflat script of the GitHub user [liumengdeqq](https://github.com/liumengdeqq/deflat) on x86 platform. 
