@@ -47,10 +47,10 @@ After deobfuscation of Control Flow Flattening, a file named ``XXX_recovered.dot
 
 - ``./Evaluation/`` [directory](https://github.com/EVulHunter/EVulHunter/tree/master/myhelper): The deobfuscation result of the evaluation part. 
 
-- ``./requirments.txt`` [file](https://github.com/EVulHunter/EVulHunter/tree/master/myhelper): The required components that the DiANa project relies on. You should install these components before running DiANa on your computer. 
+- ``./requirements.txt`` [file](https://github.com/EVulHunter/EVulHunter/tree/master/myhelper): The required components that the DiANa project relies on. You should install these components before running DiANa on your computer. 
 ``` 
-pip install -r requriements.txt 
+pip install -r requirements.txt 
 ```
 
 ## Acknowledgement
-The implementation of symbol execution in DiANa (CFF part) inspried by the deflat script of the GitHub user [liumengdeqq](https://github.com/liumengdeqq/deflat) on x86 platform. 
+The implementation of symbol execution in DiANa (CFF part) inspired by the deflat script of the GitHub user [liumengdeqq](https://github.com/liumengdeqq/deflat) on x86 platform. 
