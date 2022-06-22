@@ -44,7 +44,7 @@ matplotlib==2.2.2
 mccabe==0.6.1
 mulpyplexer==0.8
 networkx==2.1
-numpy==1.14.5
+numpy==1.22.0
 pathlib2==2.3.2
 pefile==2017.11.5
 pexpect==4.5.0
